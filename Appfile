@@ -3,7 +3,7 @@ application {
   type = "php"
 
   dependency {
-    source = "./otto/redis"
+    source = "github.com/tonysm/otto-laravel/otto/redis"
   }
 }
 
