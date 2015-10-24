@@ -14,6 +14,6 @@ project {
 
 infrastructure "otto-laravel" {
   type = "aws"
-  flavor = "simple"
+  flavor = "vpc-public-private"
 }
 
