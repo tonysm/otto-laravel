@@ -117,7 +117,7 @@ return [
 
         'default' => [
             'host'     => env('REDIS_HOST', 'redis.service.consul'),
-            'port'     => 6379,
+            'port'     => 8081,
             'database' => 0,
         ],
 
