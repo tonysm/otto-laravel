@@ -5,5 +5,5 @@ application {
 
 customization "docker" {
   image = "redis:3.0"
-  run_args = "-p 8081:6379"
+  run_args = "-p 6379:6379"
 }
