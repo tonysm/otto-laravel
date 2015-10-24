@@ -3,11 +3,17 @@ application {
   type = "php"
 
   dependency {
-    source = "./otto/redis"
+    source = "github.com/tonysm/otto-laravel/otto/redis"
   }
 }
 
-customization "php" {
-  php_webroot = "public"
+project {
+  name = "otto-laravel"
+  infrastructure = "otto-laravel"
+}
+
+infrastructure "otto-laravel" {
+  type = "aws"
+  flavor = "simple"
 }
 
