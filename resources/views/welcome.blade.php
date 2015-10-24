@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Accesses: {{ $count }}</div>
+                <div class="title">Access count: {{ $count }}</div>
             </div>
         </div>
     </body>
