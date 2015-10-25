@@ -1,6 +1,9 @@
 <?php
 
 Route::get('/', function () {
-    $count = Redis::incr('count');
-    return view('welcome', ['count' => $count]);
+    return view('welcome');
+});
+
+Route::post('/', function () {
+	return view('user', ['name' => Input::get('name')]);
 });
