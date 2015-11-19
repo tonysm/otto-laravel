@@ -1,6 +1,10 @@
 application {
   name = "otto-laravel"
   type = "php"
+
+  dependency {
+    source = "./otto/redis"
+  }
 }
 
 project {

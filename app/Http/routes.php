@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', ['counts' => Redis::incr('counts')]);
 });
 
 Route::post('/', function () {
